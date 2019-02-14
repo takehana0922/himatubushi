@@ -1,0 +1,24 @@
+a:link { color:#0000ff; text-decoration:none }
+a:visited { color:#0000ff; text-decoration:none }
+a:hover { color:#0000ff; text-decoration:none }
+a:active { color:#0000ff; text-decoration:none }
+
+/*検索フォーム*/
+.button {
+    display       : inline-block;
+    border-radius : 1%;          /* 角丸       */
+    font-size     : 10pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 15px 15px;   /* 余白       */
+    background    : #136FFF;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 0.2em;       /* 1行の高さ  */
+    opacity       : 0.9;         /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 3px 3px 6px #666666;  /* 影の設定 */
+  }
+  .button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 1;           /* カーソル時透明度 */
+  }
