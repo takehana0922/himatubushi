@@ -1,0 +1,345 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	
+	<!-- アクセスいただきありがとうございます。
+	
+	わざわざソースコードをみても特に面白いものはなく、
+	
+	CSSも内部埋め込みのクソコードですがご自愛ください -->
+	
+	
+	<!-- 訪問済みリンクの変色防止 -->
+	<style type="text/css">
+		a:link { color:#0000ff; text-decoration:none }
+		a:visited { color:#0000ff; text-decoration:none }
+		a:hover { color:#0000ff; text-decoration:none }
+		a:active { color:#0000ff; text-decoration:none }
+	</style>
+	
+	<title>TAHOO</title>
+	<!-- ▼ファビコン▼ -->
+	<meta name="msapplication-config" content="favi/browserconfig.xml" />
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favi/mstile-144x144.png">
+	<meta name="theme-color" content="#f5deb3">
+	<link rel="icon" type="image/x-icon" href="favi/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="favi/apple-touch-icon-180x180.png">
+	<link rel="mask-icon" href="favi/safari-icon.svg" color="#555" />
+	<link rel="icon" type="image/png" sizes="192x192" href="favi/android-chrome-192x192.png">
+	<link rel="manifest" href="favi/manifest.json">
+	<meta name=”theme-color” content=”#a0d8ef″><!-- 泥chromeのタブ色 -->
+	<!-- ▲ファビコン▲ -->
+</head>
+<body bgcolor="#f0f8ff">
+
+	<input id="menu-cb" type="checkbox" value="off">
+	<label id="menu-icon" for="menu-cb">≡</label>
+	<label id="menu-background" for="menu-cb"></label>
+	<div id="ham-menu">
+   		 <ul>
+				<div class="kakomi-box"><font size="5">主なサービス</font></div>
+				<li class="menu-item">
+				    <a href="https://goo.gl/dTWTa4"><span class="css-br"><img src="http://urx2.nu/Qgsk" width="30" height="30"></span>メール</a>
+				</li>
+			    
+			    <li class="menu-item">
+			    	<div class="menu-border">
+				    <a href="https://shopping.yahoo.co.jp/?sc_e=ytc"><span class="css-br"><img src="http://urx2.nu/Qgsm" width="30" height="30"></span>ショッピング</a>
+				    </div>
+			    </li>
+			    
+			    <li class="menu-item">
+		    	<div class="menu-border">
+				    <a href="https://auctions.yahoo.co.jp/"><span class="css-br"><img src="yafuoku.png" width="30" height="30"></span>ヤフオク!</a>
+				</div>
+			    </li>
+			    
+			    <li class="menu-item">
+			    <div class="menu-border">
+				    <a href="https://news.yahoo.co.jp/"><span class="css-br"><img src="Ynews.png" width="30" height="30"></span>ニュース</a>
+				</div>
+				</li>
+				
+			    <li class="menu-item">
+			    <div class="menu-border">
+				    <a href="https://weather.yahoo.co.jp/weather/"><span class="css-br"><img src="Ytenki.png" width="30" height="30"></span>天気災害</a>
+				</div>
+			    </li>
+			    
+			    <li class="menu-item">
+			    <div class="menu-border">
+			    	<a href="https://sports.yahoo.co.jp/"><span class="css-br"><img src="https://s.yimg.jp/c/icon/s/bsc/2.0/sports80.png" width="30" height="30"></span>スポーツナビ</a>
+			    </div>
+			    </li>
+			    
+			    <li class="menu-item">
+			    <div class="menu-border">
+			    	<a href="https://finance.yahoo.co.jp/"><span class="css-br"><img src="Yfai.png" width="30" height="30"></span>ファイナンス</a>
+			    </div>
+			   	</li>
+			   	
+			    <li class="menu-item">
+			    <div class="menu-border">
+			    	<a href="https://map.yahoo.co.jp/"><span class="css-br"><img src="Ymap.png" width="30" height="30"></span>地図</a>
+			    </div>
+			    </li>
+			    
+			    <li class="menu-item">
+			    <div class="menu-border">
+			    	<a href="https://transit.yahoo.co.jp/"><span class="css-br"><img src="https://s.yimg.jp/c/icon/s/bsc/2.0/transit80.png" width="30" height="30"></span>路線情報</a>
+			    <div class="menu-border">
+				</li>
+			<div id="footer" style="background-color : #c1e4e9">
+			<br>
+			<font color="#9caeb7">　開発開始日:2019 02/11</font>
+			</div>
+		
+		   </ul>
+		    
+		<div id="example">
+			<div id="footer" style="background-color : #c1e4e9">
+			<br>
+			<font color="#9caeb7">　　　最終更新日:2019 02/14</font>
+			</div>
+		</div>
+	</div>
+
+<div id="menu-background"></div>
+
+<div class="site-wrap">
+
+<dir>
+<div class="help"><font color="#80989b"><a href="https://www.yahoo-help.jp/">ヘルプ</a></font></div>
+</dir>
+<br>
+
+<!-- ▼Yahoo検索フォーム▼ -->
+<div style="margin:0;padding:0;font-size:14pt;text-align:center;border:none;background-color:#f0f8ff;">
+	<form action="https://search.yahoo.co.jp/search" method="get" target="_blank" style="margin:0;padding:0;">
+	<p style="margin:0;padding:0;">
+	<a href="http://jp.hao123.com/" target="_blank">
+		<img src="https://s.yimg.jp/images/search/guide/searchbox/yjapan_logo_110_29.gif" alt="Yahoo! JAPAN" style="border:none;padding:0;" width="210" height="60">
+	</a>
+	</p>
+		<p style="margin:0;padding:2px 0 0 0;">
+		<input type="text" name="p" size="50" style="margin:0 5px;width:70%; height: 35px;"placeholder=" キーワードを入力">
+	</p>
+	<p style="margin:0;padding:0 0 2px 0;">
+		<input type="hidden" name="fr" value="yssn">
+		<input type="hidden" name="ei" value="Shift_JIS">
+		<input type="submit" value="検索" style="margin:0;" class="button">
+	</p>
+	</form>
+	<img src="https://custom.search.yahoo.co.jp/images/window/006c75a92ba244c6b4cbe2709aa17d7b.gif" width="1" height="1" style="display:block;position:absolute">
+</div>
+<!-- ▲Yahoo検索フォーム▲ -->    
+</div>
+
+
+
+
+<!-- ▼▼▼CSS▼▼▼ -->
+<div>
+
+	<!-- ▼メインコンテンツ▼ -->
+	
+	<style>
+	.help{
+	text-align: right;
+	}
+	</style>
+	
+	<!-- ▲メインコンテンツ▲ -->
+	
+	<!-- ▼検索ボタン▼ -->
+	<style type="text/css">
+	.button {
+	  display       : inline-block;
+	  border-radius : 1%;          /* 角丸       */
+	  font-size     : 10pt;        /* 文字サイズ */
+	  text-align    : center;      /* 文字位置   */
+	  cursor        : pointer;     /* カーソル   */
+	  padding       : 15px 15px;   /* 余白       */
+	  background    : #136FFF;     /* 背景色     */
+	  color         : #ffffff;     /* 文字色     */
+	  line-height   : 0.2em;       /* 1行の高さ  */
+	  opacity       : 0.9;         /* 透明度     */
+	  transition    : .3s;         /* なめらか変化 */
+	  box-shadow    : 3px 3px 6px #666666;  /* 影の設定 */
+	  
+	  
+	}
+	.button:hover {
+	  box-shadow    : none;        /* カーソル時の影消去 */
+	  opacity       : 1;           /* カーソル時透明度 */
+	}
+	
+	</style>
+	<!-- ▲検索ボタン▲ -->
+	
+	<!-- ▼中央寄せ▼ -->
+	<style>
+	.parent {
+	  /*親要素*/
+	  position: relative;
+	  height: 150px;
+	  
+	}
+	
+	.parent p {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -ms-transform: translate(-50%,-50%);
+	  -webkit-transform : translate(-50%,-50%);
+	  transform : translate(-50%,-50%);
+	  width: 1000px;
+	  text-align: center;/*一応BOX内の文字も中央寄せ*/
+	  
+	  
+	}
+	</style>
+	<!-- ▲中央寄せ▲ -->
+	
+	<!-- ▼ハンバーガーメニュー画面▼ -->
+	<style>
+
+	/* メニュー見出し*/
+	.kakomi-box {
+	 margin: 1em auto;
+	 padding: 0.1em;
+	 width: 94%;
+	 color: #80989b; /* 文字色 */
+	 background-color: #e8ecef; /* 背景色 */
+	 border: 0px solid #ccc; /* 枠線 */
+	 padding: 5px 26px;
+	}
+
+	#ham-menu {
+	    background-color: #f8f8ff; /*メニュー背景色*/
+	    box-sizing: border-box;
+	    height: 100%;
+	    padding: 0px 40px; /*メニュー内 上下,左右　余白*/
+	    position: fixed;
+	    left: -320px; /*メニュー横幅 width ①と合わせる*/
+	    top: 0;
+	    transition: transform 0.4s linear 0s; /*②と合わせる メニュー移動のアニメーション時間*/
+	    width: -320px; /*メニュー横幅① 双方弄るとバグる*/
+	    z-index: 1000;
+	}
+	
+	#menu-background {
+	    background-color: #333; /*黒背景*/
+	    display: block;
+	    height: 100%;
+	    opacity: 0;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	    transition: all 0.4s linear 0s; /*②と合わせる メインコンテンツの上の黒幕のアニメーション時間*/
+	    width: 100%;
+	    z-index: -1;
+	}
+	
+	#menu-icon { /*基本いじらない*/
+	    background-color: ; /*アイコン部分背景色*/
+	    border-radius: 0 0 10px 0; /*左下角丸*/
+	    color: #708090; /*アイコン（フォント）色*/
+	    cursor: pointer;
+	    display: block;
+	    font-size: 50px; /*アイコン（フォント）サイズ*/
+	    height: 50px; /*アイコン縦高さ*/
+	    line-height: 50px; /*縦位置中央化*/
+	    position: fixed;
+	    left: 0;
+	    text-align: center;
+	    top: 0;
+	    width: 50px; /*アイコン横幅*/
+	    transition: all 0.4s linear 0s; /*②と合わせる　バーガーアイコンのアニメーションにかかる時間*/
+	    z-index: 1000;
+	}
+	
+	#menu-cb {
+	    display: none; /*チェックボックス本体を消す魔法*/
+	}
+	
+	#menu-cb:checked ~ #ham-menu,
+	#menu-cb:checked ~ #menu-icon {
+	    transform: translate(245px); /*メニュー本体横幅 width ①と合わせる*/
+	}
+	
+	#menu-cb:checked ~ #menu-background {
+	    opacity: 0.2;
+	    z-index: 999;
+	}	
+
+	/* メニューアイテムの体裁 */
+	.css-br::after {
+	  content: "\A" ;
+	  white-space: pre;
+	}
+	
+		.menu-item a {
+	  /* non-critical appearance styles */
+	  display: block;
+	  padding: 0.1em;
+	  color: #808080;
+	  font-size: 1.3em;
+	  text-decoration: none;
+	  transition: color 0.2s, background 0.5s;
+	}
+		
+	.menu-border {
+	/*アイテムの間にあるボーダー設定*/
+	width: 200px;/*これ以上あげるとバグる*/
+	border-top: 0.1px solid #8da0b6; /*アイテム間の線の太さと色*/
+	
+	}
+
+	</style>
+	<!-- ▲ハンバーガーメニュー画面▲ -->
+	<!-- ▼フッター▼ -->
+	<style>
+	
+		#container {
+	    width: 100%;
+	    position: relative;
+	    height: auto !important;
+	    height: 100%;
+	    min-height: 100%;
+	}
+	
+		#contents {
+	    padding-bottom: 100px;
+	}
+	
+	#footer {
+	    position: fixed;
+	    bottom: 0;
+	    width: 240px;
+	    height: 50px;
+	}
+	</style>
+	<!-- ▲フッター▲ -->
+	<!-- ▼フッターの前面表示制御(できてない)▼ -->
+	<style>
+	#example {
+	  position: relative;
+	}
+	.one  {
+	  z-index: 10;
+	  left: 0; top: 0;
+	  position: relative;
+	}
+	</style>
+	<!-- ▲フッターの前面表示制御▲ -->
+	<style>
+
+	</style>
+</div>
+<!-- ▲▲▲CSS▲▲▲ -->
+
+</body>
+</html>
